@@ -3,7 +3,7 @@ DATA_SOURCE = "<directory containing raw data>"
 ROOT = "<top level directory containing all R script files"
 vars = c("meth","agez","sex","homeless","edu","employ","married","nat","inject","cocaine","heroin","crack","alcohol","care","hiv", "type")
 
-seednum = 1 # seed
+seednum = <number> # seed
 
 # Load Required Packages
 # source(file = paste(ROOT, "/load_packages.R", sep = ""), echo=T)
